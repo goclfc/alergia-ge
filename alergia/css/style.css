@@ -76,7 +76,7 @@ body{
     align-items: flex-end;
     background-size: cover;
     background-position-y: center;
-  
+    background-color: rgb(12, 5, 146);
     opacity: 0.9;
     color: rgb(17, 5, 5);
     padding: 10px;
@@ -85,6 +85,16 @@ body{
 }
 #header:hover {
     opacity: 1;
+}
+.img-cont {
+    margin-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-cont img {
+    width: 1200px;
 }
 /* #head_about{
    
@@ -636,11 +646,16 @@ html, body{ height: 100%; }
   }
 
 }
+#about-statistic {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 section {
     margin-bottom: 200px;
+    opacity: 0.95;
 }
 .special-menu {
-    margin-bottom: 100px;
+    
    
 }
 	
@@ -658,6 +673,7 @@ section {
     width: 100%;
     height: 100%;
     position: fixed;
+    background-image: url("../images/main-bg.png");
 }
 
 .about-main{
